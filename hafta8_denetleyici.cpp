@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Bahce {
   public:
@@ -13,8 +14,8 @@ class Bahce {
     }
 
     void bilgileriGoster() {
-      std::cout << "Bahce Alani: " << alan << " birim kare" << std::endl;
-      std::cout << "bahce Cevresi: " << cevre << " birim" << std::endl;
+      cout << "Bahce Alani: " << alan << " birim kare" << endl;
+      cout << "bahce Cevresi: " << cevre << " birim" << endl;
     }
 
   private:
@@ -25,11 +26,11 @@ class Bahce {
 int main() {
   Bahce bahce1, bahce2;
 
-  std::cout << "1. Bahçe Kenar Uzunluğunu Girin: ";
-  std::cin >> bahce1.kenar;
+  cout << "1. Bahçe Kenar Uzunluğunu Girin: ";
+  cin >> bahce1.kenar;
 
-  std::cout << "2. Bahçe Kenar Uzunluğunu Girin: ";
-  std::cin >> bahce2.kenar;
+  cout << "2. Bahçe Kenar Uzunluğunu Girin: ";
+  cin >> bahce2.kenar;
 
   bahce1.alanHesapla();
   bahce1.cevreHesapla();

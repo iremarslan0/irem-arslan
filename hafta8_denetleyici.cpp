@@ -14,7 +14,7 @@ class Bahce {
 
     void bilgileriGoster() {
       std::cout << "Bahce Alani: " << alan << " birim kare" << std::endl;
-      std::cout << "Bahce Cevresi: " << cevre << " birim" << std::endl;
+      std::cout << "bahce Cevresi: " << cevre << " birim" << std::endl;
     }
 
   private:
@@ -25,10 +25,10 @@ class Bahce {
 int main() {
   Bahce bahce1, bahce2;
 
-  std::cout << "1. Bahçe Kenar Uzunluðunu Girin: ";
+  std::cout << "1. BahÃ§e Kenar UzunluÄŸunu Girin: ";
   std::cin >> bahce1.kenar;
 
-  std::cout << "2. Bahçe Kenar Uzunluðunu Girin: ";
+  std::cout << "2. BahÃ§e Kenar UzunluÄŸunu Girin: ";
   std::cin >> bahce2.kenar;
 
   bahce1.alanHesapla();
